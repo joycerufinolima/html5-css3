@@ -8,37 +8,110 @@
 
 body{
     background-color: #F1F5F7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial;
 }
 
 header{
+    padding: 10px 10px;
     background-color: #1F4086;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+header ul{
+    display: flex;
+}
+
+
+
+header ul li{
+    justify-content: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
 
 header ul li a{
     color: white;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    padding: 20px 10px;
+    
+
 }
 
 h1,h2{
-    font-family: "Poppins", sans-serif;
     color: #13264e;
     font-weight: bold;
 }
 
 .banner{
-    background-image: linear-gradient(to right,#1F4086,#563294,white );
+    background-image: linear-gradient(to top,#1F4086,#563294);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
 
 .banner p{
     color: white;
 }
 
-.banner button{
-    background-color: #8C54EF;
+.banner a{
+    display: inline-block;
+    background-color: #41276e;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.banner a:hover{
+    background-color: #563294;
+    transition-duration: 0.8s;
+}
+
+.intro{
+    text-align: center;
+}
+
+
+
+.cursos{
+    gap: 60px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.cursos div{
+    width: 30%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+    padding: 5px;
+
+    
+
+}
+
+.cursos div img{
+    padding-top: 8px;
+    width: 100px;
+}
+
+.cursos h3{
+    color: #13264e;
+}
+
 
 footer{
     background-color: #1F4086;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
