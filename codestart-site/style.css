@@ -70,6 +70,7 @@ h1,h2{
 .banner a:hover{
     background-color: #563294;
     transition-duration: 0.8s;
+    transform: translateY(-3px);
 }
 
 .intro{
@@ -108,10 +109,40 @@ h1,h2{
     color: #13264e;
 }
 
+.cursos div:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.466);
+
+}
+
+.codestart{
+    text-align: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+.depoimentos{
+    text-align: center;
+}
+
 
 footer{
     background-color: #1F4086;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width:600px){
+    .cursos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        flex-direction: column;
+    }
 }
